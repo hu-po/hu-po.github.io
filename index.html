@@ -24,15 +24,10 @@
         <h1>Hugo Ponte</h1>
         <h2>Building tatbot, an open-source tattoo robot, and exploring machine learning and robotics live.</h2>
 
-        <div class="hero-actions" aria-label="Primary links">
-          <a class="button primary" href="https://tatbot.ai/">See tatbot</a>
-          <a class="button" href="https://youtube.com/@hu-po">Watch live</a>
-        </div>
-
-        <div id="dico" aria-label="Social links">
-          <a href="https://github.com/hu-po" aria-label="GitHub"><img src="assets/cgithub.svg" class="iico" alt=""></a>
-          <a href="https://youtube.com/@hu-po" aria-label="YouTube"><img src="assets/youtube.svg" class="iico" alt=""></a>
-          <a href="https://hu-po.medium.com/" aria-label="Medium"><img src="assets/crss.svg" class="iico" alt=""></a>
+        <div class="icon-links" aria-label="Social links">
+          <a href="https://github.com/hu-po" title="GitHub" aria-label="GitHub"><img src="assets/cgithub.svg" class="iico" alt=""></a>
+          <a href="https://youtube.com/@hu-po" title="YouTube" aria-label="YouTube"><img src="assets/youtube.svg" class="iico" alt=""></a>
+          <a href="https://hu-po.medium.com/" title="Medium" aria-label="Medium"><img src="assets/medium.svg" class="iico" alt=""></a>
           <button type="button" class="icon-button" id="iemail" title="Reveal email" aria-label="Reveal email">
             <img src="assets/cemail.svg" class="iico" alt="">
           </button>
@@ -44,13 +39,13 @@
 
   <main>
     <section id="tatbot" class="container section">
-      <div class="ctitle">tatbot</div>
+      <div class="ctitle">Tatbot</div>
       <p class="lede">An open-source tattoo robot, built in public, that runs entirely on local hardware.</p>
-      <div class="hero-actions" aria-label="tatbot links">
-          <a class="button primary" href="https://tatbot.ai/">Visit tatbot.ai</a>
-          <a class="button" href="https://github.com/hu-po/tatbot">GitHub</a>
-          <a class="button" href="https://hu-po.github.io/tatbot/">Docs</a>
-          <a class="button" href="https://www.youtube.com/@tatbot">YouTube</a>
+      <div class="icon-links" aria-label="tatbot links">
+          <a href="https://tatbot.ai/" title="tatbot.ai" aria-label="tatbot.ai"><img src="assets/tatbot-mark.svg" class="iico" alt=""></a>
+          <a href="https://github.com/hu-po/tatbot" title="tatbot on GitHub" aria-label="tatbot on GitHub"><img src="assets/cgithub.svg" class="iico" alt=""></a>
+          <a href="https://www.youtube.com/@tatbot" title="tatbot on YouTube" aria-label="tatbot on YouTube"><img src="assets/youtube.svg" class="iico" alt=""></a>
+          <a href="https://hu-po.github.io/tatbot/" title="tatbot docs" aria-label="tatbot docs"><img src="assets/docs.svg" class="iico" alt=""></a>
       </div>
       <div class="video-grid tatbot-videos">
           <article class="card">
@@ -78,10 +73,7 @@
 
     <section class="band">
       <div id="featured-videos" class="container section">
-        <div class="section-heading">
-          <div class="ctitle">Featured Videos</div>
-          <a href="https://youtube.com/@hu-po" class="text-link">More on YouTube</a>
-        </div>
+        <div class="ctitle">Featured Videos</div>
         <div class="video-grid">
           <article class="card">
             <a href="https://youtu.be/xgwvU7S0K-k">
@@ -129,15 +121,8 @@
     </section>
 
     <section id="projects" class="container section">
-      <div class="section-heading">
-        <div class="ctitle">Selected Projects</div>
-        <a href="https://github.com/hu-po" class="text-link">GitHub profile</a>
-      </div>
+      <div class="ctitle">Selected Projects</div>
       <div class="project-list">
-        <a class="project" href="https://github.com/hu-po/tatbot">
-          <span class="project-title">tatbot</span>
-          <span class="project-copy">Open-source tattoo robot, built in public and run entirely on local hardware.</span>
-        </a>
         <a class="project" href="https://github.com/ZumoLabs/zpy">
           <span class="project-title">zpy</span>
           <span class="project-copy">Open-source synthetic data tooling for computer vision in Blender and Python.</span>
@@ -285,13 +270,6 @@
     </section>
   </main>
 
-  <footer class="container footer">
-    <span>Hugo Ponte</span>
-    <a href="https://youtube.com/@hu-po">YouTube</a>
-    <a href="https://github.com/hu-po">GitHub</a>
-    <button type="button" class="footer-email" id="footer-email">Reveal email</button>
-  </footer>
-
   <script type="text/javascript">
     var e_is_shown = false;
     var email_user = "hu.po.xyz";
@@ -306,7 +284,6 @@
     }
 
     document.getElementById('iemail').addEventListener('click', toggleEmail);
-    document.getElementById('footer-email').addEventListener('click', toggleEmail);
   </script>
 </body>
 
