@@ -69,14 +69,6 @@ a:focus-visible {
     box-shadow: 0 0 0 8px rgba(45, 212, 191, 0.04);
 }
 
-.eyebrow {
-    margin: 0 0 8px;
-    color: #5eead4;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
 h1 {
     font-size: 64px;
     line-height: 1;
@@ -183,12 +175,6 @@ h3 {
     line-height: 1.35;
 }
 
-.muted {
-    max-width: 680px;
-    color: #9aa7b3;
-    margin: 14px 0 0;
-}
-
 .band {
     background-color: #0d181b;
     border-top: 1px solid #213337;
@@ -208,6 +194,11 @@ h3 {
     line-height: 1.15;
     font-weight: 800;
     color: #f8fafc;
+}
+
+.ctitle + .entry,
+.ctitle + .pub {
+    margin-top: 22px;
 }
 
 .text-link {
