@@ -155,11 +155,15 @@ h3 {
 }
 
 .ctitle {
-    margin-bottom: 22px;
+    margin: 0 0 22px;
     font-size: 34px;
     line-height: 1.15;
     font-weight: 800;
     color: #f8fafc;
+}
+
+.section-links {
+    margin-bottom: 28px;
 }
 
 .video-grid {
@@ -180,14 +184,6 @@ h3 {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
-}
-
-.cdesc {
-    min-height: 70px;
-    padding: 12px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #e6edf3;
 }
 
 .ico {
